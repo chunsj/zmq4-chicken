@@ -1,0 +1,8 @@
+((egg "zmq4.egg")
+ (synopsis "Bindings for the ZeroMQ 4 API")
+ (author "Moritz Heidkamp, Sungjin Chun")
+ (needs foreigners)
+ (test-depends test)
+ (category net)
+ (license "LGPL")
+ (files "zmq.scm" "zmq.setup" "zmq.meta" "zmq.release-info" "tests/run.scm"))

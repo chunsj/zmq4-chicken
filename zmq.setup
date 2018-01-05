@@ -1,0 +1,7 @@
+(compile -s -O2 -d0 zmq.scm -J -I /usr/local/include -L/usr/local/lib -lzmq)
+(compile -s -O2 zmq.import.scm)
+
+(install-extension
+ 'zmq
+ '("zmq.so" "zmq.import.so")
+ `((version "0.3.0")))
